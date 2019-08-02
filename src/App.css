@@ -1,7 +1,19 @@
+body {
+  background-image: url("https://ae01.alicdn.com/kf/HTB1XkUaQXXXXXa5XFXXq6xXFXXXR/Thin-Vinyl-Photography-Backdrop-Misty-Blue-Backgrounds-Studio-Professional-Portrait-Premium-Photography-Studio-Photo-Backdrops.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  color: #f5f5f5;
+}
 h1 {
+  padding: 25px;
   text-align: center;
 }
-
-.container {
-  margin-top: 25px;
+.title {
+  margin: auto;
+  color: #f5f5f5;
+}
+p {
+  margin: left;
 }
