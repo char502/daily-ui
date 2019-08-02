@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Col, Row } from "react-bootstrap";
+// import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  // constructor(props) {
+  //   super(props);
+  // }
+
+  render() {
+    return (
+      <div>
+        <h1>Daily-UI Project Links</h1>
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <ol>
+                <li>
+                  <a href="https://codepen.io/char502/pen/voJgVg">
+                    Sign Up Page{" "}
+                  </a>{" "}
+                </li>
+                <li>Credit Card Checkout Form or Page</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+              </ol>
+            </Col>
+            <Col lg={8}>
+              <p>The sidebar contains links of all my Daily-UI Projects</p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    );
+  }
 }
-
 export default App;
