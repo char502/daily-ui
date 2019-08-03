@@ -26,7 +26,9 @@ class App extends React.Component {
                     Credit Card Checkout Form{" "}
                   </a>{" "}
                 </li>
-                <li>Item 3</li>
+                <li>
+                  <a href="#">Landing Page</a>
+                </li>
                 <li>Item 4</li>
                 <li>Item 5</li>
                 <li>Item 6</li>
