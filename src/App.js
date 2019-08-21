@@ -17,17 +17,17 @@ class App extends React.Component {
             <Col lg={3}>
               <ol>
                 <li>
-                  <a href="https://codepen.io/char502/pen/voJgVg">
+                  <a href="https://codepen.io/char502/full/voJgVg">
                     Sign Up Page{" "}
                   </a>{" "}
                 </li>
                 <li>
-                  <a href="https://codepen.io/char502/pen/YmrWZP">
+                  <a href="https://codepen.io/char502/full/YmrWZP">
                     Credit Card Checkout Form{" "}
                   </a>{" "}
                 </li>
                 <li>
-                  <a href="https://codepen.io/char502/pen/NWKRGbX">
+                  <a href="https://codepen.io/char502/full/NWKRGbX">
                     Landing Page
                   </a>
                 </li>
