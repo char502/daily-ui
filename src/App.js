@@ -27,9 +27,16 @@ class App extends React.Component {
                   </a>{" "}
                 </li>
                 <li>
-                  <a href="#">Landing Page</a>
+                  <a href="https://codepen.io/char502/pen/NWKRGbX">
+                    Landing Page
+                  </a>
                 </li>
-                <li>Item 4</li>
+                <li>
+                  <a href="https://codepen.io/char502/full/WNeoOMX">
+                    Calculator
+                  </a>
+                </li>
+
                 <li>Item 5</li>
                 <li>Item 6</li>
               </ol>
